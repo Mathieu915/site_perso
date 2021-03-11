@@ -1,0 +1,81 @@
+body{
+    margin-top:95px;
+    background-color: rgb(247, 236, 236);
+}
+
+#PhotoMoi{
+    width:140px;
+    height:180px;
+    border-radius: 45%;
+}
+
+#text-presentation, #presentEscape, #presentAPC, #presentVAE, #presentCluedo{
+    font-size: 22px;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+
+main, main div {
+    padding: 20px;
+}
+
+#presentPerso{
+    padding-bottom: 40px;
+    background-image:url("../../../img/fond.png");
+}
+
+#presentPerso main div div p, #presentPerso h1{
+    color: rgb(238, 225, 225);
+}
+
+#presentProjetPro{
+    padding-bottom: 30px;
+}
+
+#introComp, #introProj{
+    font-size:22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#petitTrait{
+    border-top:1px solid black;
+    margin:20px;
+}
+
+#GrandTrait{
+    border-top:1px solid black;
+
+}
+
+#WebComp, #DBComp, #ProgComp, #OSComp{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+.overlay {
+font-size: 20px;
+text-align: center;
+display: none;
+}
+
+#carte:hover .overlay {
+display: block;
+}
+
+em{
+    font-style:normal;
+    font-weight: bold;
+}
+
